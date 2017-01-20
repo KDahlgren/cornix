@@ -1,0 +1,2 @@
+all:
+	g++ main.cpp -std=c++11 -Wall -g -I/afs/cats.ucsc.edu/users/j/kmdahlgr/software/rocksdb/build/include/ -o main  -L/afs/cats.ucsc.edu/users/j/kmdahlgr/software/rocksdb/build/lib -lrocksdb

@@ -1,0 +1,1 @@
+{ (name, age, country, state, city) : ($id _eq 92) , ($id _eq 72) ($id _eq 72) , ($id _eq 24) ($id _eq 24) , ($id _eq 5) ($id _eq 5) , ($id _eq 67) ($id _eq 67) , ($id _eq 68) ($id _eq 68) , ($id _eq 79) ($id _eq 79) , ($id _eq 37) ($id _eq 37) , ($id _eq 96) ($id _eq 96) , ($id _eq 30) ($id _eq 30) }

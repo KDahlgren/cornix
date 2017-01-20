@@ -1,0 +1,13 @@
+{
+  "country": ["country", "us", "canada", "state", "province", "city"],
+  "us": ["us", "state", "ca", "fl", "ny", "or", "ar", "city", "sanfransisco", "santacruz", "sanfransisco", "santacruz", "miami"],
+  "canada": ["canada", "province", "bc", "alberta", "ontario", "manitoba", "ontario", "toronto", "windsor"],
+  "state": ["state", "ca", "fl", "ny", "or", "ar", "city"],
+  "province": ["province", "bc", "alberta", "ontario", "manitoba"],
+  "bc": ["bc"],
+  "alberta": ["alberta"],
+  "manitoba": ["manitoba"],
+  "ca": ["ca", "sanfransisco", "santacruz"],
+  "fl": ["fl", "miami"],
+  "ontario": ["ontario", "toronto", "windsor"]
+}

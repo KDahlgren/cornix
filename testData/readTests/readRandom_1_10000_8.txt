@@ -1,0 +1,1 @@
+{ (name, age, country, state, city) : ($id _eq 6334) }

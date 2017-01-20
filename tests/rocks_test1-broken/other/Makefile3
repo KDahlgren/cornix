@@ -1,0 +1,29 @@
+CXX=g++
+CXXFLAGS= -std=c++11 -Wall -g
+#SOURCES=main.cpp
+OBJECTS=$(SOURCES:.cpp=.o)
+
+MAIN = main
+
+INCLUDES = -I/afs/cats.ucsc.edu/users/j/kmdahlgr/software/rocksdb/build/include/
+LFLAGS = -L/afs/cats.ucsc.edu/users/j/kmdahlgr/software/rocksdb/build/lib
+LIBS = -lrocksdb
+
+.PHONY: depend clean
+
+all: $(MAIN)
+	@echo  Compiling job ...
+ 
+$(MAIN): $(OBJECTS) 
+	$(CXX) $(CXXFLAGS) $(INCLUDES) -o $(MAIN) $(OBJS) $(LFLAGS) $(LIBS)
+
+.cpp.o:
+	$(CXX) $(CXXFLAGS) $< -o $@
+
+clean:
+	$(RM) *.o $(MAIN)
+
+depend: $(SOURCES)
+	makedepend $(INCLUDES) $^
+
+# DO NOT DELETE THIS LINE -- make depend needs it
