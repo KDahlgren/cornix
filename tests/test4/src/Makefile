@@ -1,5 +1,5 @@
 #IDIR =../include
-IDIR=/afs/cats.ucsc.edu/users/j/kmdahlgr/software/rocksdb/build/include
+#IDIR=/afs/cats.ucsc.edu/users/j/kmdahlgr/software/rocksdb/build/include
 CXX=g++
 CXXFLAGS=-std=c++11 -Wall -g -I$(IDIR)
 
